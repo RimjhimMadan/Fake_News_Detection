@@ -9,7 +9,7 @@ export default function Navbar({ onOpenMetrics, isDarkMode, onToggleTheme }) {
           <ShieldCheck size={22} color="#ffffff" />
         </div>
         <div>
-          <span className="brand-title">TruthLens</span>
+          <span className="brand-title">FakeFound</span>
         </div>
         <span className="nav-tag">AI News Verification</span>
       </div>

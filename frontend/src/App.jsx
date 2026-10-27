@@ -20,13 +20,13 @@ export default function App() {
   const [sourceUrl, setSourceUrl] = useState('');
   const [activeView, setActiveView] = useState('analyze');
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    const savedTheme = window.localStorage.getItem('truthlens-theme');
+    const savedTheme = window.localStorage.getItem('fakefound-theme');
     return savedTheme ? savedTheme === 'dark' : true;
   });
 
   useEffect(() => {
     document.documentElement.dataset.theme = isDarkMode ? 'dark' : 'light';
-    window.localStorage.setItem('truthlens-theme', isDarkMode ? 'dark' : 'light');
+    window.localStorage.setItem('fakefound-theme', isDarkMode ? 'dark' : 'light');
   }, [isDarkMode]);
 
   const handleAnalyze = async () => {
@@ -46,7 +46,7 @@ export default function App() {
       setResult(data);
     } catch (err) {
       console.error('Analysis failed:', err);
-      setError(err.message || 'Failed to connect to TruthLens prediction backend.');
+      setError(err.message || 'Failed to connect to FakeFound prediction backend.');
     } finally {
       setLoading(false);
     }
@@ -128,7 +128,7 @@ export default function App() {
             </span>
           </div>
           <div>
-            <span>TruthLens NLP System • v1.0.0</span>
+            <span>FakeFound NLP System • v1.0.0</span>
           </div>
         </footer>
       </main>

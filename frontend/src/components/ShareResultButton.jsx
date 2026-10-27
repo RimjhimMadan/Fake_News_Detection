@@ -17,7 +17,7 @@ export default function ShareResultButton({ result }) {
       context.fillRect(0, 0, 18, canvas.height);
       context.fillStyle = '#f8fafc';
       context.font = '700 56px sans-serif';
-      context.fillText('TruthLens', 80, 110);
+      context.fillText('FakeFound', 80, 110);
       context.font = '400 28px sans-serif';
       context.fillStyle = '#94a3b8';
       context.fillText('Explainable news authenticity signal', 82, 155);
@@ -38,7 +38,7 @@ export default function ShareResultButton({ result }) {
       context.fillStyle = '#64748b';
       context.fillText('Assistive signal, not a substitute for independent verification.', 84, 620);
       const link = document.createElement('a');
-      link.download = 'truthlens-result.png';
+      link.download = 'fakefound-result.png';
       link.href = canvas.toDataURL('image/png');
       link.click();
     } finally {

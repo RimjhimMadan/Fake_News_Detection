@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://truthlens-api.onrender.com/$1"
+      "destination": "https://fakefound-api.onrender.com/$1"
     },
     {
       "source": "/(.*)",

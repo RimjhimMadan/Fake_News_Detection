@@ -43,7 +43,7 @@ export default function BatchUpload() {
           <button type="submit" className="btn-primary" disabled={!file || loading}>
             {loading ? <><LoaderCircle className="spin-icon" size={17} /><span>Processing CSV...</span></> : <><FileUp size={17} /><span>Analyze CSV</span></>}
           </button>
-          {downloadUrl && <a className="btn-secondary" href={downloadUrl} download="truthlens-predictions.csv"><Download size={16} /><span>Download Results</span></a>}
+          {downloadUrl && <a className="btn-secondary" href={downloadUrl} download="fakefound-predictions.csv"><Download size={16} /><span>Download Results</span></a>}
         </div>
       </form>
       {file && <p className="file-name">Selected: {file.name}</p>}
