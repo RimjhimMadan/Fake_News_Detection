@@ -1,0 +1,16 @@
+{
+  "high_credibility": [
+    {"domain": "reuters.com", "name": "Reuters"},
+    {"domain": "apnews.com", "name": "Associated Press"},
+    {"domain": "bbc.com", "name": "BBC"},
+    {"domain": "npr.org", "name": "NPR"},
+    {"domain": "nytimes.com", "name": "The New York Times"},
+    {"domain": "theguardian.com", "name": "The Guardian"}
+  ],
+  "low_credibility": [
+    {"domain": "infowars.com", "name": "InfoWars"},
+    {"domain": "naturalnews.com", "name": "Natural News"},
+    {"domain": "beforeitsnews.com", "name": "Before It's News"},
+    {"domain": "worldnewsdailyreport.com", "name": "World News Daily Report"}
+  ]
+}

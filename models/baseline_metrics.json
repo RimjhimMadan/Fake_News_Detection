@@ -1,0 +1,68 @@
+{
+  "best_model": "Linear SVM",
+  "models": [
+    {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.9870417732310316,
+      "precision": 0.9913370998116761,
+      "recall": 0.9802607076350093,
+      "f1_score": 0.9857677902621723,
+      "f1_macro": 0.9869371032688014,
+      "f1_weighted": 0.9870357920903329,
+      "roc_auc": 0.998855158521017,
+      "confusion_matrix": [
+        [
+          3157,
+          23
+        ],
+        [
+          53,
+          2632
+        ]
+      ],
+      "cm_plot": "notebooks\\plots\\confusion_matrix_logistic_regression.png"
+    },
+    {
+      "model_name": "Multinomial Naive Bayes",
+      "accuracy": 0.9609548167092924,
+      "precision": 0.9531365313653136,
+      "recall": 0.9620111731843576,
+      "f1_score": 0.9575532900834106,
+      "f1_macro": 0.9607024540393375,
+      "f1_weighted": 0.9609682402555666,
+      "roc_auc": 0.9921140039586334,
+      "confusion_matrix": [
+        [
+          3053,
+          127
+        ],
+        [
+          102,
+          2583
+        ]
+      ],
+      "cm_plot": "notebooks\\plots\\confusion_matrix_multinomial_naive_bayes.png"
+    },
+    {
+      "model_name": "Linear SVM",
+      "accuracy": 0.9947144075021312,
+      "precision": 0.9944113263785395,
+      "recall": 0.9940409683426443,
+      "f1_score": 0.9942261128701807,
+      "f1_macro": 0.994676332649522,
+      "f1_weighted": 0.9947143307383156,
+      "roc_auc": 0.9996416148413618,
+      "confusion_matrix": [
+        [
+          3165,
+          15
+        ],
+        [
+          16,
+          2669
+        ]
+      ],
+      "cm_plot": "notebooks\\plots\\confusion_matrix_linear_svm.png"
+    }
+  ]
+}

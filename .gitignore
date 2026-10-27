@@ -1,0 +1,27 @@
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pkl
+*.safetensors
+*.bin
+
+# Exception: keep small saved baseline models if desired or ignore large models
+models/distilbert_model/model.safetensors
+
+# Data
+data/raw/
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
