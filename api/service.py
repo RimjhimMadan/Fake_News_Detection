@@ -1,5 +1,5 @@
 """
-TruthLens Inference & Explainability Service
+FakeFound Inference & Explainability Service
 """
 
 import sys
@@ -43,7 +43,7 @@ class PredictionService:
         return cls._instance
 
     def _init_service(self):
-        logger.info("Initializing TruthLens PredictionService...")
+        logger.info("Initializing FakeFound PredictionService...")
         self.explainer = None
         self.logistic_pipeline = None
         self.bert_tokenizer = None

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: truthlens-api
+    name: fakefound-api
     env: python
     region: oregon
     plan: free
